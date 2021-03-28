@@ -1,10 +1,34 @@
+body{
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+.cta{
+    background-image: linear-gradient(hsla(13, 100%, 72%, 0.90),  hsla(353, 100%, 62%, 0.90)), url("../images/bg-pattern-intro.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+/* Navbar logo styling */
+.nav-logo img{
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    margin-top: -6px;
+    float: left;
+}
 
 /* Navbar container */
 .navigation{
     overflow: hidden;
-    background-color: #333;
     font-family: Arial;
-    padding: 20px 20px;
+    padding: 50px 200px;
+
+    
 }
 
 /* Links within the navbar */
@@ -83,11 +107,33 @@ text-align: left;
 .title-area{
     text-align: center;
     padding: 50px 0 50px 0;
+    font-family: "Ubuntu", "sans-serif";
+    color: white;
+    font-size: 1.5em;
+}
+
+.title-area h3{
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+/* Buttons styling in the title area */
+.incentives button{
+border-radius: 2em;
+padding: 0.3em 1.2em;
+margin: 0 0.3em 0.3em 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: "Ubuntu";
+font-weight: 400;
+background-color: white;
+border: 0
 }
 
 main{
     text-align: center;
     padding: 5% 10%;
+    font-family: "overpass", "sans-serif";
 }
 
 
@@ -162,6 +208,7 @@ text-align: right;
     vertical-align: top;
     text-align: left;
     padding: 40px 50px;
+    
 }
 
 .footer-content ul{
